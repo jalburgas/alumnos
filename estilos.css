@@ -1,0 +1,7 @@
+:root {
+    --fondo-gris: #e0e0e0;  /* Cambia el color aquí */
+}
+
+body {
+    background-color: var(--fondo-gris);
+}
