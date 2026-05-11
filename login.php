@@ -48,7 +48,7 @@ $error = $_GET['error'] ?? '';
                                     <i class="bi bi-person-fill me-1"></i>Usuario o Email
                                 </label>
                                 <input type="text" class="form-control" id="username" name="usuario"
-                                    placeholder="usuario@ejemplo.com" required>
+                                    placeholder="Ejemplo:jhonwick" required>
                                 <div class="invalid-feedback">
                                     Por favor ingresa tu usuario o email
                                 </div>

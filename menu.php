@@ -1,5 +1,8 @@
 <?php
+SESSION_START();
 // Tu código PHP aquí
+//print_r($_SESSION);
+$usuario = $_SESSION['usuario'] ?? '';
 ?>
 <html>
 
@@ -10,7 +13,7 @@
 </head>
 
 <body>
-
+    <p>Usuario: <?php echo $usuario; ?></p>
     <!-- ========================================== -->
     <!-- INICIO DEL MENÚ LATERAL (CON COLLAPSE)      -->
     <!-- ========================================== -->

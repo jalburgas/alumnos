@@ -1,7 +1,14 @@
 :root {
-    --fondo-gris: #e0e0e0;  /* Cambia el color aquí */
+    --fondo-gris: #e0e0e0;
+    --fuente: #f6efef;
+    /* Cambia el color aquí */
 }
 
 body {
     background-color: var(--fondo-gris);
+}
+
+p {
+    font-size: 1.2em;
+    color: var(--fuente);
 }
