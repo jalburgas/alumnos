@@ -13,7 +13,7 @@ $usuario = $_SESSION['usuario'] ?? '';
 </head>
 
 <body>
-    <p>Usuario: <?php echo $usuario; ?></p>
+    <p class="texto-usuario">Usuario: <?php echo $usuario; ?></p>
     <!-- ========================================== -->
     <!-- INICIO DEL MENÚ LATERAL (CON COLLAPSE)      -->
     <!-- ========================================== -->
