@@ -1,3 +1,8 @@
+<?php
+//print_r($_GET);
+$error = $_GET['error'] ?? '';
+echo $error;
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,6 +22,12 @@
                 <div class="card shadow-sm">
                     <div class="card-header bg-white border-bottom">
                         <div class="text-center">
+
+                            <?php if ($error == 1): ?>
+                                <div class="alert alert-warning" role="alert">
+                                    Usuario o contraseña incorrectos
+                                </div>
+                            <?php endif; ?>
 
                             <h3 class="mt-2">Sistema de Acceso</h3>
                             <p class="text-muted mb-0">Ingresa tus credenciales</p>
