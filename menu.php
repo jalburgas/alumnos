@@ -56,7 +56,11 @@
                         <a href="#" class="btn w-100 text-start ps-4">Consultar Notas</a>
                     </div>
                 </div>
+                <div class="px-3 mt-4">
+                    <a href="login.php" class="btn btn-danger">← Salir</a>
+                </div>
             </div>
+
             <!-- ========================================== -->
             <!-- FIN DEL MENÚ LATERAL                        -->
             <!-- ========================================== -->
@@ -106,6 +110,7 @@
                             </ul>
                         </div>
                     </div>
+                    <a href="login.php" class="btn btn-danger">← Salir</a>
                 </nav>
                 <!-- ========================================== -->
                 <!-- FIN DEL MENÚ SUPERIOR                      -->

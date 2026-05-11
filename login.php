@@ -1,7 +1,7 @@
 <?php
 //print_r($_GET);
 $error = $_GET['error'] ?? '';
-echo $error;
+//echo $error;
 ?>
 <!DOCTYPE html>
 <html lang="es">
